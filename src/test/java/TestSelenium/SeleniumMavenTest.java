@@ -204,22 +204,29 @@ public class SeleniumMavenTest {
 		driver.findElement(By.xpath("//li[@id='optCotizaciones']/a/i")).click();
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//td[@class='cssColumna1']/button[2]")).click();
-		Thread.sleep(10000);
+		Thread.sleep(15000);
 		driver.findElement(By.xpath("//button[@class='swal2-confirm btn btn-success btnConfirmarSA']")).click();
-		Thread.sleep(10000);
+		Thread.sleep(15000);
 		driver.findElement(By.xpath("//button[@class='swal2-confirm btn btn-success btnConfirmarSA']")).click();
 		Thread.sleep(5000);
 	
 		
 		driver.findElement(By.xpath("//td[@class='cssColumna1']/button")).click();
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//input[@id='txtNroOperacion']")).sendKeys(String.valueOf("224356789015"));
+		
+		
+		int valor1 = (int)(Math.random()*(999999999-111111111+1)+999999999); 
+		int valor2 = (int)(Math.random()*(9-1+1)+9);
+		String numCadena1= valor1+"";
+		String numCadena2= valor2+"";
+		//System.out.println(numCadena1+numCadena2);
+		driver.findElement(By.xpath("//input[@id='txtNroOperacion']")).sendKeys(String.valueOf(numCadena1+numCadena2));
 		 
 		 		 
 		//driver.findElement(By.linkText("Aceptar")).click();
 		Thread.sleep(2000); 
 		driver.findElement(By.xpath("//button[@id='btnVincularOperacion']")).click();
-		Thread.sleep(10000);
+		Thread.sleep(12000);
 		driver.findElement(By.xpath("//button[@class='swal2-confirm btn btn-success btnConfirmarSA']")).click();
 		Thread.sleep(2000);
 		

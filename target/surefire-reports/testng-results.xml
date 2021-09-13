@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSelenium.SeleniumMavenTest" duration-ms="110465" started-at="2021-09-12T22:46:00 COT" finished-at="2021-09-12T22:47:50 COT">
+  <suite name="TestSelenium.SeleniumMavenTest" duration-ms="121473" started-at="2021-09-12T23:30:49 COT" finished-at="2021-09-12T23:32:50 COT">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="110465" started-at="2021-09-12T22:46:00 COT" finished-at="2021-09-12T22:47:50 COT">
+    <test name="Command line test" duration-ms="121473" started-at="2021-09-12T23:30:49 COT" finished-at="2021-09-12T23:32:50 COT">
       <class name="TestSelenium.SeleniumMavenTest">
-        <test-method status="PASS" signature="ejecutaTest()[pri:0, instance:TestSelenium.SeleniumMavenTest@271053e1]" name="ejecutaTest" duration-ms="110411" started-at="2021-09-12T22:46:00 COT" finished-at="2021-09-12T22:47:50 COT">
+        <test-method status="PASS" signature="ejecutaTest()[pri:0, instance:TestSelenium.SeleniumMavenTest@271053e1]" name="ejecutaTest" duration-ms="121428" started-at="2021-09-12T23:30:49 COT" finished-at="2021-09-12T23:32:50 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ejecutaTest -->

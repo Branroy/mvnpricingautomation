@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSelenium.SeleniumMavenTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 122.12 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 172.036 sec

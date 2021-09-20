@@ -1,5 +1,8 @@
 package TestSelenium;
 
+import java.io.IOException;
+import java.util.ArrayList;
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,6 +13,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class SeleniumMaven {
 
 	public static void main(String[] args) throws InterruptedException {
+		
+		
 		WebDriver driver;
 		ChromeOptions options;
 		System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\chromedriver.exe");
